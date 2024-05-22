@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.err{
+  color: red;
+}
+.body{
+  margin: auto;
+  width: 75%;
+}
+.body h1{
+  margin: 20px 0px;
+}
+.container{
+  margin-top: 20px;
+}
+.means{
+  margin: 0px 0px 0px 25px;
+}
+.word{
+  font-size: 50px;
+}
