@@ -12,7 +12,7 @@ const useFetch = (word)=>{
                 setTimeout(()=>{
                     setData(resp)
                     setLoading(false)
-                },500)
+                },200)
             }
             catch(error){
                 console.log(error)
