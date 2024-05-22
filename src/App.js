@@ -12,7 +12,8 @@ function App() {
   var [data,isLoading] = useFetch(word);
   const inptRef = useRef(null);
   useEffect(()=>{
-    inptRef.current.focus()
+    inptRef.current.focus();
+    document.title="Dictionary"
   },[])
   function handleClick(){
     if(document.getElementById('inpt').value!==''){
