@@ -1,5 +1,4 @@
 import React from 'react'
-import Speaker from '../icons/speaker'
 import AudioPlayer from './audioPlayer'
 
 function Meaning(props) {
@@ -11,7 +10,7 @@ function Meaning(props) {
             <>
                 <div className='meaning'>
                     <span className='word'>{props.data[0].word}</span>
-                    <AudioPlayer src={props.data[0].phonetics[0].audio!=''?props.data[0].phonetics[0].audio:null} />
+                    <AudioPlayer src={props.data[0].phonetics[0].audio!==''?props.data[0].phonetics[0].audio:null} />
                     <hr/>
                     <div>
                         {
